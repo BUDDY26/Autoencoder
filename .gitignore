@@ -1,0 +1,21 @@
+# Dataset files (auto-downloaded by torchvision on first run)
+data/
+
+# Compressed dataset archives
+*.gz
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model checkpoints and saved weights
+*.pt
+*.pth
+checkpoints/
+saved_model/
+
+# Fine-tuned model adapter directories
+*lora*/
